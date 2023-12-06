@@ -4,6 +4,9 @@ import os
 #1. Make a function named get_titanic_data that returns the Titanic data from the codeup data science
 # database as a pandas data frame.
 def get_titanic_data():
+    """
+    function extrapolates data from codeup MySQL database and saves to csv if not already created
+    """
     filename = 'titanic.csv'
     if os.path.exists(filename):
         print('this file exists, reading from csv')
@@ -20,6 +23,9 @@ def get_titanic_data():
 #2. Make a function named get_iris_data that returns the data from the iris_db on the codeup data science database as a pandas data frame.
 # The returned data frame should include the actual name of the species in addition to the species_ids.
 def get_iris_data():
+    """
+    function extrapolates data from codeup MySQL database and saves to csv if not already created
+    """
     filename = 'iris.csv'
     if os.path.exists(filename):
         print('this file exists, reading from csv')
@@ -38,6 +44,9 @@ def get_iris_data():
 # tables with the customers table, so that the resulting dataframe contains all the
 # contract, payment, and internet service options.
 def get_telco_data():
+    """
+    function extrapolates data from codeup MySQL database and saves to csv if not already created
+    """
     filename = 'telco.csv'
     if os.path.exists(filename):
         print('this file exists, reading from csv')
