@@ -1,4 +1,4 @@
-# Telco_Report
+# Telco
 
 ## Project Description:
 The telecommunications company Telco is dealing with issues regarding customer churn. This project aims to ask questions of their data and determine if I am able to key in on specific factors that may be contributing to customer churn. I will then be applying machine learning techniques to create models to predict future churn and what may be the causes behind a failed customer retention. Ultimately my goal is to be able to assist Telco in determining why their customers are leaving and promote suggestions to change that outcome the underlying factors.
